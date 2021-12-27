@@ -1,0 +1,81 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> ON HBO </title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+<div class="main">
+    <div class="section1" id="section1">
+        <img src="./LOGO2.png"/>
+    </div>
+    <div class="section2">
+        <h3> There's More to Discover </h3> 
+        <ul>
+            <li> <a href="">HOME</a> </li>
+            <li> <a href="#series">SERIES</a> </li>
+            <li> <a href="#movies">MOVIES</a> </li>
+            <li> <a href="#channels">CHANNELS</a> </li>
+        </ul>
+    </div>
+    <div class="section3" id="series">
+        <h1> Arrowverse Series </h1>
+        <div class="section31">
+            <img src="./images/S01.jpg"/>
+            <img src="./images/S02.jpg"/>
+            <img src="./images/S03.jpg"/>
+            <img src="./images/S04.jpg"/>
+            <img src="./images/S05.jpg"/>
+            <img src="./images/S06.png"/>
+            <img src="./images/S07.jpg"/>
+            <img src="./images/S08.jpg"/>
+            <img src="./images/S09.jpg"/>
+        </div>
+    </div>
+    <div class="section4" id="movies">
+        <h1> Movies </h1>
+        <div class="section41">
+            <img src="./images/M01.jpg"/>
+            <img src="./images/M02.jpg"/>
+            <img src="./images/M04.jpg"/>
+            <img src="./images/M05.png"/>
+            <img src="./images/M06.jpg"/>
+            <img src="./images/M07.jpg"/>
+            <img src="./images/M08.jpg"/>
+            <img src="./images/M09.png"/>
+            <img src="./images/M10.jpg"/>
+            <img src="./images/M11.jpg"/>
+        </div>
+    </div>
+    <div class="section5" id="channels">
+        <h1> Channels </h1>
+        <div class="section51">
+            <img src="./images/C01.jpg"/>
+            <img src="./images/C02.jpg"/>
+            <img src="./images/C03.jpg"/>
+            <img src="./images/C04.jpg"/>
+
+        </div>
+    </div>
+</div>
+<script>
+    window.onscroll = function() {myFunc()};
+    
+    var navbar = document.getElementById("section1");
+    var sticky = navbar.offsetTop;
+    
+    function myFunc() 
+    {
+      if (window.pageYOffset >= sticky) 
+      {
+        navbar.classList.add("sticky")
+      } 
+      else 
+      {
+        navbar.classList.remove("sticky");
+      }
+    }
+</script>
+    
+</body>
+</html>

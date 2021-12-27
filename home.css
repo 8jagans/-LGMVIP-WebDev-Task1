@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+.section1 {
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.section1 img {
+    width : 15%;
+    padding: 1%;
+}
+
+.section2 {
+    margin-top:2%;
+    background-color: black;    
+    height: 15%;
+}
+.section2 h3 {
+    color: white;
+    text-align: center;
+}
+.section2 ul{
+    list-style-type: none;
+    margin:0%;
+    padding-top: 2%;
+}
+.section2 li {
+    display: inline;
+    margin: 9%;
+}
+.section2 li a {
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.25s;
+    padding: 0.75%;
+    border-radius: 100px;
+}
+.section2 li a:hover{
+    box-shadow: 1px 1px 10px yellow;
+}
+
+.section3 {
+    background-color: black;
+}
+.section3 h1 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(0deg, black 10%, yellow 100%);
+    padding: 8%;
+    margin-top: 0%;
+}
+.section31 img{
+    width: 12%;
+    height: 35%;
+    border-radius: 10px;
+    margin-left: 6%;
+    margin-bottom: 3%;
+    box-shadow: 0px 0px 10px yellow;
+    transition-duration: 0.5s;
+}
+.section31 img:hover {
+    box-shadow: 0px 0px 40px yellow;
+}
+
+.section4 {
+    background-color: black;
+    margin:0%;
+    padding: 0%;
+}
+.section4 h1 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(0deg, black 10%, yellow 100%);
+    padding: 8%;
+    margin-top: 0%;
+}
+.section41 img{
+    width: 12%;
+    height: 35%;
+    border-radius: 10px;
+    margin-left: 6%;
+    margin-bottom: 3%;
+    box-shadow: 0px 0px 10px yellow;
+    transition-duration: 0.5s;}
+.section41 img:hover {
+    box-shadow: 0px 0px 30px yellow;
+}
+
+.section5 {
+    background-color: black;
+    margin:0%;
+    padding: 0%;
+}
+.section5 h1 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(0deg, black 10%, yellow 100%);
+    padding: 8%;
+    margin-top: 0%;
+}
+.section51 img{
+    width: 15%;
+    border-radius: 100%;
+    margin-left: 8%;
+    margin-bottom: 15%;
+    box-shadow: 0px 0px 10px yellow;
+    transition-duration: 0.5s;}
+.section51 img:hover {
+    box-shadow: 0px 0px 50px yellow;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.section1 img {
+    width : 50%;
+}
+.section2 ul {
+    padding-top:8%;
+}
+.section2 li {
+    margin: 2%;
+    font-size: 100%;
+}
+
+.section3 h1 , .section4 h1 {
+    padding-top: 18%;
+}
+
+.section31 img {
+    width: 30%;
+    height: 25%;
+    margin-left: 13%;
+    margin-bottom: 10%;
+}
+
+.section41 img{
+    width: 35%;
+    height: 25%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.section51 img{
+    width: 30%;
+    height: 15%;
+    margin-left: 13%;
+    margin-bottom: 10%;
+}
+
+
+}
